@@ -30,9 +30,9 @@
 1. Clone this latest repository.
 2. Install additional dependencies.
  ```
-sudo apt install ros-foxy-gazebo-ros-pkgs # if there will be error please tell me and i will help
-sudo apt install ros-foxy-image-pipeline
-sudo apt install ros-foxy-rviz2
+sudo apt install ros-humble-gazebo-ros-pkgs # if there will be error please tell me and i will help
+sudo apt install ros-humble-image-pipeline
+sudo apt install ros-humble-rviz2
 ```
 3. Run gazebo `gazebo LRS-FEI/worlds/fei_lrs_gazebo_depth.world`. Now you should see with `ros2 topic list`:
 ```/clicked_point
