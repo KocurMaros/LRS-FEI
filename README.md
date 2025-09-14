@@ -35,3 +35,5 @@ https://mavlink.io/en/messages/common.html#POSITION_TARGET_LOCAL_NED
 https://qiao.github.io/PathFinding.js/visual/
 
 https://github.com/shkolovy/path-finder-algorithms
+
+https://drive.google.com/drive/folders/1kdJTx8izfa05DvJzxsOJkLIsTs9WD0GQ?usp=sharing
