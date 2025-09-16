@@ -37,7 +37,7 @@ RRT explained in 2D: https://theclassytim.medium.com/robotic-path-planning-rrt-a
 RRT and RRT* implemented in 3D: https://github.com/motion-planning/rrt-algorithms
 
 #### Pointcloud and planning in 3D
-You have to work with this map: https://github.com/MartinSedlacek/LRS-FEI/blob/2nd_project/maps/FEI_LRS_PCD/map.pcd
+You have to work with this map: https://github.com/KocurMaros/LRS-FEI/blob/2nd_project/maps/FEI_LRS_PCD/map.pcd
 To load this map you can use PCL library. 
 
 To install the library you can use: `sudo apt install libpcl-dev`, to use the library to load the pointcloud you can refer to the tutorial for example: https://pcl.readthedocs.io/projects/tutorials/en/latest/reading_pcd.html. 
