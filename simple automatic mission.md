@@ -1,13 +1,14 @@
 ### **Project specification**
 
 1. __Map handling.__
-    - implementation or tool - map loading - **required**
+    - implementation or tool - 3D map loading - **required**
     - implementation of obstacle inflation - **required**
     - implementation of map transformations, rotations etc. - **if needed**
 2. __Map search algorithm. (Path finding)__
-    - implementation or tool - path finding/search algorithm - **required**
-        - Flood fill, RRT, A*...
+    - implementation or tool - advanced planning algorithm - **required**
+        - RRT, A*...
 3. __Trajectory planning.__
+    - Use pointcloud to plan the trajectory, the trajectory planning needs to be done in 3D.
     - implementation or tool - optimization of path - **if needed**
         - minimal requirement - elimination of not necessary points (elimination of sequences of horizontal, vertical, diagonal paths...)          
 4. __ROS Drone control node__
@@ -28,6 +29,20 @@
 
 _Note: Map search algorithm and some parts of Trajectory planning can be implemented in one method, if you choose so._
 _Note: If a software tool is used, it must be well documented and explained in documentation._
+
+#### Advanced planning algorithm
+Implement or integrate the algorithm into the planning trajectory algorithm from your 1st assignemnt. 
+
+RRT explained in 2D: https://theclassytim.medium.com/robotic-path-planning-rrt-and-rrt-212319121378
+RRT and RRT* implemented in 3D: https://github.com/motion-planning/rrt-algorithms
+
+#### Pointcloud and planning in 3D
+You have to work with this map: https://github.com/MartinSedlacek/LRS-FEI/blob/2nd_project/maps/FEI_LRS_PCD/map.pcd
+To load this map you can use PCL library. 
+
+To install the library you can use: `sudo apt install libpcl-dev`, to use the library to load the pointcloud you can refer to the tutorial for example: https://pcl.readthedocs.io/projects/tutorials/en/latest/reading_pcd.html. 
+
+To further process the pointcloud to voxel grid, you can refer to: https://pcl.readthedocs.io/projects/tutorials/en/latest/voxel_grid.html
 
 ### **Example mission** 
 
