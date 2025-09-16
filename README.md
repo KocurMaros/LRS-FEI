@@ -1,9 +1,8 @@
 # LRS-FEI
 A short guide on how to work with preinstalled ubuntu LRS. 
 ## Setup simulation with LRS-Ubuntu image
-1. Open terminator with LRS layout. 
-2. In 1st terminal launch gazebo: `gazebo <path_to_world>/fei_lrs_gazebo.world`
-3. In 2nd terminal launch ArduPilot SITL: 
+1. In 1st terminal launch gazebo: `gazebo <path_to_world>/fei_lrs_gazebo.world`
+2. In 2nd terminal launch ArduPilot SITL: 
 ```
 cd ardupilot/ArduCopter
 sim_vehicle.py -f gazebo-iris --console -l 48.15084570555732,17.072729745416016,150,0
