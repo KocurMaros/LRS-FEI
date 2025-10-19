@@ -32,5 +32,8 @@ If you want you can also generate a Google AI Studio API key at [GoogleAIStudio]
 
 ### **Potential starting points**
 These are some potentially useful links, which may be useful to you.
-- [ROSA - Robot Operation System Agent](https://github.com/nasa-jpl/rosa)
 - [ROS MCP Server](https://github.com/robotmcp/ros-mcp-server/tree/main)
+- [ROSA - Robot Operation System Agent](https://github.com/nasa-jpl/rosa)
+- [What is MCP?](https://modelcontextprotocol.io/docs/getting-started/intro) 
+- [LangGraph](https://www.langchain.com/langgraph)
+- [n8n] (https://n8n.io/)
