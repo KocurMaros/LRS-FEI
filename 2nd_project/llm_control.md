@@ -36,4 +36,4 @@ These are some potentially useful links, which may be useful to you.
 - [ROSA - Robot Operation System Agent](https://github.com/nasa-jpl/rosa)
 - [What is MCP?](https://modelcontextprotocol.io/docs/getting-started/intro) 
 - [LangGraph](https://www.langchain.com/langgraph)
-- [n8n] (https://n8n.io/)
+- [n8n](https://n8n.io/)
