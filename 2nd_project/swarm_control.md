@@ -2,16 +2,16 @@
 In this assignment you will have to control UAV swarm consisting of at least 3 UAVs.
 
 ## Project specification
-1. Setup the swarm simulation.
+1. __Setup the swarm simulation.__
 - You will need x instances of SITL and MAVROS, your each simulated UAV will have unique ros namespace. 
 
-2. Implement drone control ROS node to handle several UAVs. 
+2. __Implement drone control ROS node to handle several UAVs.__ 
 - You need to handle important messages and services for each of the UAV - local position, arm, land, takeoff. 
 
-3. Implement mechanism to control the swarm.
+3. __Implement mechanism to control the swarm.__
 - You can implement "follow me mode" (you can control only the leader and all other UAV will follow it with some offset) or you can implement swarm control (you will control all UAV in the swarms with the same commands).
 
-4. Implement safety checks. 
+4. __Implement safety checks.__ 
 - You need to monitor each incoming local pose, if some UAV will stop sending its position you need to handle the event with a stop to all drones.
 
  
