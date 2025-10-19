@@ -15,7 +15,7 @@
 
 
 #### **Assignment points**
-- Each section will be awarded 1/4 of total points (35), points for the last section will be awarded only if other sections are completed.
+- Each section will be awarded 1/4 of total points (25), points for the last section will be awarded only if other sections are completed.
 - **Minimal requirement is to have at least of 50% of points from this assignment, it is possible to achieve this by completing 1. and 2. part of the mission (refer to video ([video](../resources/simple_obstacle_avoidance_minimal.mkv)), which illustrates minimal assignment conditions to get 50% points).**
 - It is possible to achieve 75% of the points by completing 1., 2. and 3. part of the assignemt without flying. To get this points you will have to demonstrate, that you are able to plan where your drone should flight next to avoid the obstacle (should be x,y,z point).   
 - To get all the points your drone should be able to complete the mission "autonomously". 
@@ -28,11 +28,11 @@
 
 ### Installation guide
 1. Clone this latest repository.
-2. Install additional dependencies.
+2. Install additional dependencies. (this is already installed on images and script provided by us, so you can skip this step if you are using FEI LRS computer)
  ```
-sudo apt install ros-foxy-gazebo-ros-pkgs # if there will be error please tell me and i will help
-sudo apt install ros-foxy-image-pipeline
-sudo apt install ros-foxy-rviz2
+sudo apt install ros-humble-gazebo-ros-pkgs # if there will be error please tell me and i will help
+sudo apt install ros-himble-image-pipeline
+sudo apt install ros-humble-rviz2
 ```
 3. Run gazebo `gazebo LRS-FEI/worlds/fei_lrs_gazebo_depth.world`. Now you should see with `ros2 topic list`:
 ```/clicked_point
