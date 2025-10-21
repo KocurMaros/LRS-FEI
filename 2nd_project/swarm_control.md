@@ -28,7 +28,11 @@ Video of example swarm in simulation:   ([video](../resources/swarm.mkv))
 - You will use different world to simulate the swarm.
 - Follow this tutorial to setup the world:
 
-1. Open 3 terminal windows and launch 3 ardupilot sitl.
+1. Open world 
+```
+gazebo LRS-FEI/worlds/iris_arducopter_runway.world
+```
+2. Open 3 terminal windows and launch 3 ardupilot sitl.
 ```
 cd ardupilot/ArduCopter
 sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I1
@@ -41,7 +45,7 @@ sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I2 --sysid 2
 cd ardupilot/ArduCopter
 sim_vehicle.py -v ArduCopter -f gazebo-iris --console -I3 --sysid 3
 ```
-2. Open another 3 terminals and launch mavros 3 times.
+3. Open another 3 terminals and launch mavros 3 times.
 
 ```
 ros2 run mavros mavros_node --ros-args -p fcu_url:=udp://127.0.0.1:14561@14561 -p tgt_system:=1 --remap __ns:=/drone1
